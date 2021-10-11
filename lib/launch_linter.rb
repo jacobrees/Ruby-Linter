@@ -13,11 +13,8 @@ class LaunchLinter
   end
 
   def launch
-    puts 'Launching ' + 'DragonLintAlpha...'.red
-    puts 'Please enter which Ruby file from bin/error/ directory you would like to scan.'
-    puts 'Enter "*" to scan all .rb files inside bin/error directory.'
     @file = gets.chomp
-    @file_path = 'bin/error/' + @file
+    @file_path = "bin/error/#{@file}"
   end
 
   def read_file(file)
@@ -37,6 +34,8 @@ class LaunchLinter
     display_results(file)
   end
 
+  # rubocop: disable Metrics/PerceivedComplexity
+  # rubocop: disable Metrics/CyclomaticComplexity
   # rubocop: disable Metrics/MethodLength
   # rubocop: disable Metrics/AbcSize
   # rubocop: disable Layout/LineLength
@@ -86,7 +85,8 @@ class LaunchLinter
   # rubocop: enable Metrics/MethodLength
   # rubocop: enable Metrics/AbcSize
   # rubocop: enable Layout/LineLength
-
+  # rubocop: enable Metrics/CyclomaticComplexity
+  # rubocop: enable Metrics/PerceivedComplexity
   def run
     launch
     read_file(@file_path) unless @file == '*'
