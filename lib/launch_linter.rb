@@ -34,7 +34,6 @@ class LaunchLinter
     display_results(file)
   end
 
-  # rubocop: disable Metrics/PerceivedComplexity
   # rubocop: disable Metrics/CyclomaticComplexity
   # rubocop: disable Metrics/MethodLength
   # rubocop: disable Metrics/AbcSize
@@ -86,7 +85,6 @@ class LaunchLinter
   # rubocop: enable Metrics/AbcSize
   # rubocop: enable Layout/LineLength
   # rubocop: enable Metrics/CyclomaticComplexity
-  # rubocop: enable Metrics/PerceivedComplexity
   def run
     launch
     read_file(@file_path) unless @file == '*'
