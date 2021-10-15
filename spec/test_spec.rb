@@ -1,6 +1,6 @@
 require 'rspec'
-require_relative '../lib/naming_test.rb'
-require_relative '../lib/space_test.rb'
+require_relative '../lib/naming_test'
+require_relative '../lib/space_test'
 
 describe NamingTest do
   include NamingTest

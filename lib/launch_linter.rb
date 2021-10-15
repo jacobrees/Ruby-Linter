@@ -14,7 +14,7 @@ class LaunchLinter
 
   def launch
     @file = gets.chomp
-    @file_path = 'bin/error/' + @file
+    @file_path = "bin/error/#{@file}"
   end
 
   def read_file(file)
