@@ -13,9 +13,6 @@ class LaunchLinter
   end
 
   def launch
-    puts 'Launching ' + 'DragonLintAlpha...'.red
-    puts 'Please enter which Ruby file from bin/error/ directory you would like to scan.'
-    puts 'Enter "*" to scan all .rb files inside bin/error directory.'
     @file = gets.chomp
     @file_path = 'bin/error/' + @file
   end
