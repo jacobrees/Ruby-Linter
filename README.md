@@ -204,3 +204,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Project inspired by Microverse Program
+- Code linters used within this project have been supplied by Microverse
