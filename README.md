@@ -1,4 +1,4 @@
-# Ruby-Linter
+# Ruby Linter
 
 > This project is a challenge on building a Ruby Linter that detects errors within Ruby code and reports these erorrs to the user. This is part of the _Microverse Remote Software Development Curriculum_.
 
