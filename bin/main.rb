@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+
 require_relative '../lib/naming_test'
 require_relative '../lib/string_colors'
 require_relative '../lib/read_all'
