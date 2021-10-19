@@ -6,6 +6,10 @@
 
 ![](screenshot/screenshot.gif)
 
+# Live Code
+
+### [View Repl](https://repl.it/@jacobrees24/Ruby-Linter#README.md)
+
 # Getting Started
 It is recomended that you use this project with ***Ruby version 2.7.0*** (support for older versions of Ruby not guaranteed) you should already have Ruby installed on your machine before you begin.
 
@@ -181,10 +185,6 @@ end
 ## Built With
 
 - Ruby (Version - 2.7.0p0)
-
-## Live Code
-
-[View Live Code](https://repl.it/@jacobrees24/Ruby-Linter#README.md)
 
 ## Authors
 
